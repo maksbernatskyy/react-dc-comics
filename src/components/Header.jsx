@@ -6,7 +6,7 @@ export default function Header() {
       <header className="py-3">
         <div className="container d-flex justify-content-between">
           <div>
-            <img className="logo w-75" src={dcLogo} alt="" />
+            <img className="logo" src={dcLogo} alt="" />
           </div>
 
           <div>
