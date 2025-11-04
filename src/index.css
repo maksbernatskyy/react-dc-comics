@@ -16,3 +16,17 @@ header img{
   height: 3rem;
 }
 
+#main-footer{
+  background-image: url('./assets/img/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#big-logo{
+  top: 10px;
+}
+
+.position-relative img{
+  height: 480px;
+}
+
