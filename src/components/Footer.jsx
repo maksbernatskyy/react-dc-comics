@@ -1,4 +1,9 @@
 import bigLogo from '../assets/img/dc-logo-bg.png'
+import facebook from '../assets/img/footer-facebook.png'
+import periscope from '../assets/img/footer-periscope.png'
+import pinterest from '../assets/img/footer-pinterest.png'
+import twitter from '../assets/img/footer-twitter.png'
+import youtube from '../assets/img/footer-youtube.png'
 
 export default function Footer() {
   return (
@@ -180,9 +185,20 @@ export default function Footer() {
 
         <div id='signup-field' className='bg-dark py-5'>
             <div className="container">
-                <div>
-                    <a className='text-uppercase text-decoration-none text-white p-2 border border-primary border-3' href="#">sign-up now</a>
+                <div className='d-flex justify-content-between'>
+                    <div>
+                        <a className='text-uppercase text-decoration-none text-white p-2 border border-primary border-3' href="#">sign-up now!</a>
+                    </div>
+                    <div className='d-flex gap-3'>
+                        <a className='text-uppercase text-primary text-decoration-none fw-bold fs-3' href="#">follow us</a>
+                        <a href="#"><img src={facebook} alt="" /></a>
+                        <a href="#"><img src={periscope} alt="" /></a>
+                        <a href="#"><img src={pinterest} alt="" /></a>
+                        <a href="#"><img src={twitter} alt="" /></a>
+                        <a href="#"><img src={youtube} alt="" /></a>
+                    </div>
                 </div>
+
             </div>
         </div>
     </footer>
