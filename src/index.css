@@ -5,3 +5,8 @@
 body{
   font-family: "Open Sans";
 }
+
+.bg-primary img{
+  width: 2.5rem;
+  height: 3rem;
+}
