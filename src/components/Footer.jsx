@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
         <div id='main-footer' className='py-5'>
             <div className="container">
-                <div className="row position-relative">
+                <div id='footer-field' className="row">
                     <div className="col-6 row">
                         <div className='col-4'>
                             <h4 className='text-uppercase text-white fw-bold'>
@@ -171,14 +171,20 @@ export default function Footer() {
 
                     </div>
 
-                    <div id='big-logo' className="position-absolute z-1 start-50">
+                    <div id='big-logo'>
                         <img src={bigLogo} alt="" />
                     </div>
                 </div>
             </div>
         </div>
 
-        <div></div>
+        <div id='signup-field' className='bg-dark py-5'>
+            <div className="container">
+                <div>
+                    <a className='text-uppercase text-decoration-none text-white p-2 border border-primary border-3' href="#">sign-up now</a>
+                </div>
+            </div>
+        </div>
     </footer>
   );
 }

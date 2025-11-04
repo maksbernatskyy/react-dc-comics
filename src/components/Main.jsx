@@ -19,7 +19,7 @@ export default function Main() {
           </div>
         </div>
 
-        <div className="bg-primary py-5">
+        <div id="icons" className="bg-primary py-5">
           <div className="container">
             <div className="row row-cols-5">
               <div className="col d-flex text-center">
