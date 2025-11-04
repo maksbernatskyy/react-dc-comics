@@ -1,8 +1,12 @@
+import dcLogo from '../assets/img/dc-logo.png'
+
 export default function Header() {
     return (
         <>
         <header>
-            CHACTERS
+            <div>
+                <img src={dcLogo} alt="" />
+            </div>
         </header>
         </>
     )
