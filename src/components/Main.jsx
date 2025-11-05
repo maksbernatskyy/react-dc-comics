@@ -31,7 +31,7 @@ export default function Main() {
                   <div key={thisComic.id} className="col">
                     <div className="card bg-black">
                       <img src={thisComic.thumb} className="card-img-top" alt="" />
-                      <div className="card-body">
+                      <div className="card-body text-start">
                         <p className="card-text text-white">{thisComic.title}</p>
                       </div>
                     </div>
@@ -39,6 +39,13 @@ export default function Main() {
                 ))
               }
 
+            </div>
+
+            {/* Bottone load more */}
+            <div className="text-center">
+              <button className="btn btn-primary fw-bold text-uppercase px-5">
+                load more
+              </button>
             </div>
 
 

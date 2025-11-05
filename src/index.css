@@ -79,3 +79,11 @@ header img{
   position: absolute;
   top: -65px;
 }
+
+/* Cards */
+
+.card img{
+  height: 250px;
+  object-fit: cover;
+
+}

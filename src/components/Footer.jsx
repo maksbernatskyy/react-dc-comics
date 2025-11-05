@@ -12,8 +12,8 @@ export default function Footer() {
 
     {/* function markup */}
     function getMarkup(array) {
-        return array.map((thisElement) => (
-                                        <li className='text-decoration-none'>
+        return array.map((thisElement, i) => (
+                                        <li key={i} className='text-decoration-none'>
                                             <a href="#" className='text-white-50 text-decoration-none'>
                                                 {thisElement}
                                             </a>
