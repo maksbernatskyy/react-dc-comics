@@ -68,3 +68,14 @@ header img{
   background-repeat: no-repeat;
 }
 
+/* Position button */
+
+#currentSeriesField{
+  position: relative;
+}
+
+#currentSeries{
+  display: inline-block;
+  position: absolute;
+  top: -65px;
+}
