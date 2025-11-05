@@ -1,8 +1,8 @@
 import dcLogo from "../assets/img/dc-logo.png";
 
 export default function Header() {
+
   {/* array della navbar */}
-  
   const navBar = [
     'character',
     'comics',
@@ -20,15 +20,19 @@ export default function Header() {
     <>
       <header className="py-3">
         <div className="container d-flex justify-content-between">
+
+          {/* Logo */}
           <div>
             <img className="logo" src={dcLogo} alt="" />
           </div>
-
+          
+          {/* navBar */}
           <div>
             <nav className="navbar navbar-expand-lg">
               <div className="container-fluid">
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav">
+
                     {/* Inserimento navBar dinamicamente */}
                     {
                       navBar.map((thisLink, i) => (
