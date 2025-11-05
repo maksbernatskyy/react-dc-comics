@@ -24,7 +24,7 @@ export default function Main() {
             </button>
 
             {/* Comics grid */}
-            <div className="row row-cols-6">
+            <div className="row row-cols-1 row-cols-md-3 row-cols-lg-6">
               
               {
                 comics.map((thisComic) => (
