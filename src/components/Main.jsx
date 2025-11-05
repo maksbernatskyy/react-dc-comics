@@ -4,6 +4,9 @@ export default function Main() {
   return (
     <>
       <main>
+        <div id="jumbotron">
+
+        </div>
         <div className="bg-black py-5">
           <div className="container">
             <a

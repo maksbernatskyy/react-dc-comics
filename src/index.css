@@ -46,3 +46,10 @@ header img{
   z-index: 2;
 }
 
+#jumbotron{
+  height: 300px;
+  background-image: url(./assets/img/jumbotron.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
