@@ -68,8 +68,8 @@ export default function Footer() {
         <div id='main-footer' className='py-5'>
             <div className="container">
                 <div id='footer-field' className="row">
-                    <div className="col-12 col-md-6 row">
-                        <div className='col-4'>
+                    <div className="col-12 col-md-6 row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        <div className='col'>
                             <h4 className='text-uppercase text-white fw-bold'>
                                     dc comics
                             </h4>
@@ -91,7 +91,7 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <div className='col-4'>
+                        <div className='col'>
                             <h4 className='text-uppercase text-white fw-bold'>
                                     dc
                             </h4>
@@ -102,7 +102,7 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        <div className='col-4'>
+                        <div className='col'>
                             <h4 className='text-uppercase text-white fw-bold'>
                                     sites
                             </h4>
@@ -125,8 +125,8 @@ export default function Footer() {
         {/* Small Footer */}
         <div id='signup-field' className='bg-dark py-5'>
             <div className="container">
-                <div className='d-flex justify-content-between'>
-                    <div>
+                <div className='d-md-flex justify-content-between'>
+                    <div className='mb-3'>
                         <a className='text-uppercase text-decoration-none text-white p-2 border border-primary border-3' href="#">sign-up now!</a>
                     </div>
                     <div className='d-flex gap-3'>
