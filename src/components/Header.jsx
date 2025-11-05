@@ -1,6 +1,21 @@
 import dcLogo from "../assets/img/dc-logo.png";
 
 export default function Header() {
+  {/* array della navbar */}
+  
+  const navBar = [
+    'character',
+    'comics',
+    'movies',
+    'tv',
+    'games',
+    'collectibles',
+    'videos',
+    'fans',
+    'news',
+    'shop',
+  ]
+
   return (
     <>
       <header className="py-3">
@@ -37,11 +52,6 @@ export default function Header() {
                     <li class="nav-item">
                       <a class="nav-link fw-bold text-uppercase" aria-current="page" href="#">
                         games
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link fw-bold text-uppercase" aria-current="page" href="#">
-                        Characters
                       </a>
                     </li>
                     <li class="nav-item">

@@ -1,12 +1,14 @@
+//Blue bar
 import BlueBar from "./BlueBar";
 
 export default function Main() {
   return (
     <>
       <main>
-        <div id="jumbotron">
+        
+        {/* Jumbotron */}
+        <div id="jumbotron"></div>
 
-        </div>
         <div className="bg-black py-5">
           <div className="container">
             <a
