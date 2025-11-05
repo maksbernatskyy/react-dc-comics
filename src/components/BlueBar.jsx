@@ -9,7 +9,7 @@ export default function BlueBar() {
         <>
         <div id="icons" className="bg-primary py-5">
           <div className="container">
-            <div className="row row-cols-5">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
               <div className="col d-flex text-center">
                 <img className="me-3 d-inline" src={digitalComics} alt="" />
                 <a

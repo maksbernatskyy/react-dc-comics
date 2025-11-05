@@ -115,7 +115,8 @@ export default function Footer() {
 
                     </div>
 
-                    <div id='big-logo'>
+                    {/* Big Logo */}
+                    <div id='big-logo' className='d-none d-md-block'>
                         <img src={bigLogo} alt="" />
                     </div>
                 </div>
