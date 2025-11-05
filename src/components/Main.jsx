@@ -2,10 +2,11 @@
 import BlueBar from "./BlueBar";
 
 export default function Main() {
+  
   return (
     <>
       <main>
-        
+
         {/* Jumbotron */}
         <div id="jumbotron"></div>
 
