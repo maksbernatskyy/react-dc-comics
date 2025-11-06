@@ -83,6 +83,9 @@ header img{
 /* Cards */
 
 .card img{
-  height: 250px;
-  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 0;
+  aspect-ratio: 1 / 1;
+  object-fit: fill;
 }
