@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 // Blue bar
 import BlueBar from "./BlueBar";
 // Comics.js
@@ -28,14 +30,11 @@ export default function Main() {
               
               {
                 comics.map((thisComic) => (
-                  <div key={thisComic.id} className="col">
-                    <div className="card bg-black">
-                      <img src={thisComic.thumb} className="card-img-top" alt="" />
-                      <div className="card-body text-start">
-                        <p className="card-text text-white">{thisComic.title}</p>
-                      </div>
-                    </div>
-                  </div>
+                  <Card 
+                     key={thisComic.id}
+                     thumb={thisComic.thumb}
+                     title={thisComic.title}
+                  />
                 ))
               }
 
