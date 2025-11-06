@@ -1,7 +1,9 @@
+// Card.jsx
 import Card from "./Card";
 
-// Blue bar
+// Bluebar.jsx
 import BlueBar from "./BlueBar";
+
 // Comics.js
 import comics from "../assets/comics";
 
@@ -28,6 +30,7 @@ export default function Main() {
             {/* Comics grid */}
             <div className="row row-cols-1 row-cols-md-3 row-cols-lg-6">
               
+              {/* Insermento componente Card con props */}
               {
                 comics.map((thisComic) => (
                   <Card 
